@@ -160,16 +160,99 @@ g = sns.lmplot(x="CAPE", y="PW", hue="month",
 plt.show(g)
 \end{verbatim}
 
+\pagebreak
+
 \section{Resultados}
 
 A continuación se muestran los resultados del análisis de datos.
 
-\textbf{CAPE}
+\subsection{CAPE}
 
+Se muestran los diagramas de la energía potencial convectiva disponible para cada uno de los lanzamientos (Figura 1 y 2):
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{CAPE00Z.png}
+  \caption{CAPE 00Z}
+\end{centering}
+\end{figure}
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{CAPE12Z.png}
+  \caption{CAPE 12Z}
+\end{centering}
+\end{figure}
+
+\subsection{PW}
+
+A continuación se muestran los diagramas de cajas del agua precipitable para cada uno de los lanzamientos (Figura 3 y 4):
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{PW00Z.png}
+  \caption{PW 00Z}
+\end{centering}
+\end{figure}
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{PW12Z.png}
+  \caption{PW 12Z}
+\end{centering}
+\end{figure}
+
+\subsection{Relación de PW y CAPE}
+
+A continuación se muestran las gráficas de la relación entre el agua precipitable y la energía potencial convectiva disponible (Figura 5 y 6):
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{PW_CAPE00Z.png}
+  \caption{Relación de PW y CAPE 00Z}
+\end{centering}
+\end{figure}
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{PW_CAPE12Z.png}
+  \caption{Relación de PW y CAPE 12Z}
+\end{centering}
+\end{figure}
+
+\subsection{Pareados}
+
+A continuación se muestra las gráficas de los pareados, es decir, uno en función del otro pero de cada mes (Figura 7 y 8):
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{PW_CAPE200Z.png}
+  \caption{Pareado 00Z}
+\end{centering}
+\end{figure}
+
+\begin{figure}
+\begin{centering}
+  \includegraphics[scale = 0.8]{PW_CAPE212Z.png}
+  \caption{Paread 12Z}
+\end{centering}
+\end{figure}
+
+\section{Conclusión}
+
+Como conclusión podemos añadir que usamos lo que sabíamos del uso del lenguaje de programación Python junto con el manejo de scripts de shell, lo que nos llevó a realizar una actividad más compleja y completa, juntando el conocimiento adquirido de las actividades anteriores y ahora, aprendimos nuevas maneras de graficar con matplotlib.
 
 \section{Bibliografía}
 
 -Convective Available Potential Energy (2018) De Wikipedia.org. Recopilado el 06 de mars¿zo del 2018: https://en.wikipedia.org/wiki/Convective\_available\_potential\_energy
 
 -Precipitable Water (2018) de Wikipedia.org. Recopilado el 06 de marzo del 2018: https://en.wikipedia.org/wiki/Precipitable\_water
+
+--Atmospheric Soundings (2018) College o Engineering, University of Wyoming. Recuperado el 03 de marzo del 2018: $http://weather.uwyo.edu/upperair/sounding.html$
+
+\section{Apéndice}
+
+A continuación se responden algunas preguntas acerca de la actividad.
+
+
 \end{document}
